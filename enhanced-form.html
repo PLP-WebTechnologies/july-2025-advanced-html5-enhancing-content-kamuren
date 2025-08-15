@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="KidCOde Events - A coding event for kids to learn and have fun!">
+        <title>KidCOde</title>
+    </head>
+    <body>
+        <header>
+            <h1>Welcome to the KidCOde Event</h1>        
+        </header>
+
+        <main>
+
+            <!-- About Section -->
+            <section id="about">
+                <h2>About KidCOde</h2>
+                <p>KidCOde is a platform designed to help children learn coding in a fun and interactive way.</p>
+                <p>Our events are tailored for kids aged 8 to 15, providing a safe and engaging environment to explore the world of programming.</p>
+                <p>Our upcoming event is set to happen on <strong>September 15, 2025</strong>.</p>
+
+            </section>
+
+            <!-- Activities section -->
+            <section id="activities">
+                <h2>Activities</h2>
+                <p>We have a number of activities designed to engage and inspire young coders</p>
+                <p>Our activities include:</p>
+                <ul>
+                    <li>Basic HTML and CSS</li>
+                    <li>Problem-solving through coding games</li>
+                    <li>Building a mini web page</li>
+                </ul>
+                <p>We have merch and awards for participants!</p>
+            </section>
+
+            <!-- Media section -->
+            <section id="media">
+                <h2>Media</h2>
+                <p>Here is a video of last year's event!</p>
+                <video controls>
+                    <source src="last-year-event.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <p>Check out our photos from the event:</p>
+                <div class="photo-gallery">
+                    <img src="photo1.jpg" alt="Event Photo 1">
+                    <img src="photo2.jpg" alt="Event Photo 2">
+                    <img src="photo3.jpg" alt="Event Photo 3">
+                </div>
+            </section>
+
+            <!-- Schedule of the day -->
+             <section id="schedule">
+                <table border="1px">
+                    <caption>Event Schedule</caption>
+                    <thead>
+                        <tr>
+                            <th>Time</th>
+                            <th>Activity</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>09:00 AM</td>
+                            <td>Registration</td>
+                            <td>Check-in and welcome</td>
+                        </tr>
+                        <tr>
+                            <td>10:00 AM</td>
+                            <td>Introduction to HTML</td>
+                            <td>Learn the basics of HTML</td>
+                        </tr>
+                        <tr>
+                            <td>11:00 AM</td>
+                            <td>Coding Games</td>
+                            <td>Engage in fun coding challenges that involve coding games</td>
+                        </tr>
+                        <tr>
+                            <td>12:00 PM</td>
+                            <td>Lunch Break</td>
+                            <td>Enjoy a break and refuel for the afternoon sessions</td>
+                        </tr>
+                        <tr>
+                            <td>01:00 PM</td>
+                            <td>Building a Mini Web Page</td>
+                            <td>Hands-on session to create a simple web page with HTML and CSS</td>
+                        </tr>
+                        <tr>
+                            <td>02:30 PM</td>
+                            <td>Awards and Closing Ceremony</td>
+                            <td>Celebrate the achievements of the participants and distribute awards</td>
+                        </tr>
+                    </tbody>
+                </table>
+             </section>
+
+            <!-- Registration form -->
+            <section id="registration">
+                <h2>Register Now</h2>
+                <p>Fill out the form below to register your child for this event.</p>
+                <fieldset>
+                    <legend>Child Information</legend>
+                    <form id="enhanced-form">
+                        <label for="parent-name">Parent's Name:</label>
+                        <input type="text" id="parent-name" name="parent-name" required><br>
+
+                        <label for="parent-email">Parent's Email:</label>
+                        <input type="email" id="parent-email" name="parent-email" required><br>
+
+                        <label for="parent-phone">Parent's Phone:</label>
+                        <input type="tel" id="parent-phone" name="parent-phone" pattern="(\+254|0)7\d{8}" required><br>
+
+                        <label for="child-name">Child's Name:</label>
+                        <input type="text" id="child-name" name="child-name" required><br>
+
+                        <label for="gender">Child's Gender:</label>
+                        <select id="gender" name="gender" required>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                            <option value="other">Other</option>
+                        </select><br>
+
+                        <label for="age">Child's Age:</label>
+                        <input type="number" id="age" name="age" min="8" max="15" required><br>
+
+                    <button type="submit">Submit</button>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2025 KidCOde. All rights reserved.</p>
+        </footer>
+</html>
